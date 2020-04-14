@@ -1,42 +1,32 @@
-var main = function() {
+var main = function () {
+    "use strict";
 
-  $.getJSON("cards/aceOfSpades.json", function(card) {
+    $.getJSON("cards/aceOfSpades.json", function (card) {
+        // create an element to hold the card
+        var $cardParagraph = $("<p>");
 
-    // создаем элемент для хранения карты
-    var $cardParagraph = $("<p>");
+        // create the 
+        $cardParagraph.text(card.rank + " of " + card.suit);
 
-    // создаем
-    $cardParagraph.text(card.rank);
-    $cardParagraph.text(card.suit);
+        // append the card paragraph to main
+        $("main").append($cardParagraph);
+    });
 
-    // связываем абзац с картой с main
-    $("main").append($cardParagraph);
+    $.getJSON("cards/hand.json", function (hand) {
+        var $list = $("<ul>");
 
-  });
+        // hand is an array, so we can iterate over it
+        hand.forEach(function (card) {
+            // create a list item to hold the card
+            // and append it to the list
+            var $card = $("<li>");
+            $card.text(card.rank + " of " + card.suit);
+            $list.append($card);
+        });
 
-
-
-
-  // $.getJSON("cards/hand.json", function(hand) {
-  //
-  //   var $list = $("<ul>");
-  //
-  //   // hand — массив, поэтому мы можем применить к нему итерационный процесс // с помощью цикла forEach
-  //   hand.forEach(function(card) {
-  //
-  //     // создаем элемент списка для хранения карты // и присоединяем его к списку
-  //     var $card = $("<li>");
-  //
-  //     $card.text(card.rank + " of " + card.suit);
-  //
-  //     $list.append($card);
-  //
-  //   });
-  //   // присоединяем список к элементу main
-  //   $("main").append($list);
-  // });
-
+        // append the list to main
+        $("main").append($list);
+    });
 };
-
 
 $(document).ready(main);

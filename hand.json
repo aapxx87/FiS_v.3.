@@ -1,9 +1,7 @@
 [
-
-  { "suit" : "пик", "rank" : "туз" },
-  { "suit" : "червей", "rank" : "десятка" },
-  { "suit" : "пик", "rank" : "пятерка" },
-  { "suit" : "треф", "rank" : "тройка" },
-  { "suit" : "бубен", "rank" : "тройка" }
-
+  { "suit" : "spades", "rank" : "ace" },
+  { "suit" : "hearts", "rank" : "ten" },
+  { "suit" : "spades", "rank" : "five" },
+  { "suit" : "clubs", "rank" : "three" },
+  { "suit" : "diamonds", "rank" : "three" }
 ]

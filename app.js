@@ -1,7 +1,7 @@
 var main = function () {
     "use strict";
 
-    $.getJSON("cards/aceOfSpades.json", function (card) {
+    $.getJSON("aceOfSpades.json", function (card) {
         // create an element to hold the card
         var $cardParagraph = $("<p>");
 
@@ -12,7 +12,7 @@ var main = function () {
         $("main").append($cardParagraph);
     });
 
-    $.getJSON("cards/hand.json", function (hand) {
+    $.getJSON("hand.json", function (hand) {
         var $list = $("<ul>");
 
         // hand is an array, so we can iterate over it

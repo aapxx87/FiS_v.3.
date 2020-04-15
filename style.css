@@ -51,9 +51,11 @@ body {
 }
 
 .number {
-  font-size: 65px;
+  font-size: 35px;
   color: white;
+  margin-top: 12px;
   margin-right: 20px;
+  font-family: 'Roboto', sans-serif;
 }
 
 #clickMe1 {

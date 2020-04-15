@@ -1,7 +1,7 @@
 $(document).ready(function() {
 
-  $("#clickMe").click(function() {
-      $("#picframe").slideToggle();
+  $("#clickMe1").click(function() {
+      $("#picframe1").slideToggle();
     }
   );
 

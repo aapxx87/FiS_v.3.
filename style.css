@@ -3,152 +3,70 @@ body {
   padding: 0;
 }
 
+.main-title {
+  font-family: 'Roboto', sans-serif;
+  font-size: 23px;
+  text-align: left;
+  color: white;
+}
 
+.dop-title {
+  font-family: 'Roboto', sans-serif;
+  text-align: left;
+  font-size: 15px;
+  margin-top: 6px;
+  color: #E4D3CB;
+}
 
-#clickMe {
+.clickMe_div {
   background: #694F63;
   padding: 20px;
   text-align: center;
   width: 91%;
   height: 60px;
   display: block;
-  /* border: 1px solid #000; */
 }
 
-#picframe {
+.content_div {
   background: ;
   padding: 20px;
   width: 91%;
   display: none;
   border: 1px solid #000;
+}
+
+#clickMe1 {
+  background: #694F63;
 }
 
 #clickMe2 {
   background: #808487;
-  padding: 20px;
-  text-align: center;
-  width: 91%;
-  height: 60px;
-  display: block;
-  /* border: 1px solid #000; */
-}
-
-#picframe2 {
-  background: ;
-  padding: 20px;
-  width: 91%;
-  display: none;
-  border: 1px solid #000;
 }
 
 #clickMe3 {
   background: #94AEA3;
-  padding: 20px;
-  text-align: center;
-  width: 91%;
-  height: 60px;
-  display: block;
-  /* border: 1px solid #000; */
 }
 
-#picframe3 {
-  background: ;
-  padding: 20px;
-  width: 91%;
-  display: none;
-  border: 1px solid #000;
+#clickMe3 {
+  background: #94AEA3;
 }
 
 #clickMe4 {
   background: #C7BE96;
-  padding: 20px;
-  text-align: center;
-  width: 91%;
-  height: 60px;
-  display: block;
-  /* border: 1px solid #000; */
 }
-
-#picframe4 {
-  background: ;
-  padding: 20px;
-  width: 91%;
-  display: none;
-  border: 1px solid #000;
-}
-
 
 #clickMe5 {
   background: #BBB7A3;
-  padding: 20px;
-  text-align: center;
-  width: 91%;
-  height: 60px;
-  display: block;
-  /* border: 1px solid #000; */
 }
-
-#picframe5 {
-  background: ;
-  padding: 20px;
-  width: 91%;
-  display: none;
-  border: 1px solid #000;
-}
-
 
 #clickMe6 {
   background: #D8BD5C;
-  padding: 20px;
-  text-align: center;
-  width: 91%;
-  height: 60px;
-  display: block;
-  /* border: 1px solid #000; */
 }
-
-#picframe6 {
-  background: ;
-  padding: 20px;
-  width: 91%;
-  display: none;
-  border: 1px solid #000;
-}
-
 
 #clickMe7 {
   background: #C9684C;
-  padding: 20px;
-  text-align: center;
-  width: 91%;
-  height: 60px;
-  display: block;
-  /* border: 1px solid #000; */
 }
-
-#picframe7 {
-  background: ;
-  padding: 20px;
-  width: 91%;
-  display: none;
-  border: 1px solid #000;
-}
-
 
 #clickMe8 {
   background: #815277;
-  padding: 20px;
-  text-align: center;
-  width: 91%;
-  height: 60px;
-  display: block;
-  /* border: 1px solid #000; */
-}
-
-#picframe8 {
-  background: ;
-  padding: 20px;
-  width: 91%;
-  display: none;
-  border: 1px solid #000;
 }

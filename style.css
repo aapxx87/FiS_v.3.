@@ -1,12 +1,37 @@
-body, html{
+body, html {
   max-width: 100%;
   overflow-x: hidden;
 }
 
-
 body {
   margin: 0;
   padding: 0;
+}
+
+.clickMe_div {
+  display: inline-flex;
+  background: #694F63;
+  padding: 20px;
+  padding-bottom: 40px;
+  width: 91%;
+  height: 60px;
+  display: block;
+}
+
+.clickMe_div_left {
+  float: left;
+}
+
+.clickMe_div_right {
+  float: right;
+}
+
+.content_div {
+  background: ;
+  padding: 20px;
+  width: 91%;
+  display: none;
+  border: 1px solid #000;
 }
 
 .main-title {
@@ -14,6 +39,7 @@ body {
   font-size: 23px;
   text-align: left;
   color: white;
+  margin-top: 10px;
 }
 
 .dop-title {
@@ -24,25 +50,14 @@ body {
   color: #E4D3CB;
 }
 
-.clickMe_div {
-  background: #694F63;
-  padding: 20px;
-  text-align: center;
-  width: 91%;
-  height: 60px;
-  display: block;
-}
-
-.content_div {
-  background: ;
-  padding: 20px;
-  width: 91%;
-  display: none;
-  /* border: 1px solid #000; */
+.number {
+  font-size: 65px;
+  color: white;
+  margin-right: 20px;
 }
 
 #clickMe1 {
-  background: #815277;
+  background: #674D5E;
 }
 
 #clickMe2 {

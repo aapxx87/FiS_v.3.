@@ -52,7 +52,7 @@ $(document).ready(function() {
 
         $(".input_s").val("");
 
-        $(".output_area").fadeOut(6000);
+        $(".output_area").hide(4000);
 
 
       }

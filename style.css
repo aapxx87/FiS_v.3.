@@ -27,11 +27,13 @@ body {
 }
 
 .content_div {
-  background: ;
+  background: #EAD9D1;
   padding: 20px;
   width: 100%;
   display: none;
-  border: 1px solid #000;
+  border: 1px solid #C4C4BC;
+  color: #2A2B27;
+  font-family: 'Roboto', sans-serif;
 }
 
 .main-title {
@@ -64,6 +66,10 @@ body {
 
 #clickMe2 {
   background: #808487;
+}
+
+#picframe1 {
+  background-color: ;
 }
 
 #clickMe3 {

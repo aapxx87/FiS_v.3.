@@ -93,3 +93,21 @@ body {
 #clickMe8 {
   background: #815277;
 }
+
+
+
+.input_s {
+  width: 170px;
+  height: 30px;
+  position: fixed;
+  left: 30%;
+  bottom: 30px;
+  background: #434852;
+  opacity: 0.5;
+  border: 1px solid #434852;
+  border-radius: 28px;
+  color: white;
+  font-size: 15px;
+outline:none;
+
+}

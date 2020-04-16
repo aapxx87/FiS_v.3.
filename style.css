@@ -111,6 +111,7 @@ body {
 
 
 .output_area {
+  display: none;
   width: 170px;
   height: 30px;
   position: fixed;

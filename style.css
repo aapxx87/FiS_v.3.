@@ -115,7 +115,7 @@ body {
   width: 170px;
   height: 30px;
   position: fixed;
-  top: 30px;
+  bottom: 80px;
   left: 30%;
   right: 30px;
   background: #434852;
@@ -125,4 +125,10 @@ body {
   color: white;
   font-size: 16px;
   outline: none;
+}
+
+.output_area p {
+  margin-top: 5px;
+margin-left: 10px;
+color: white;
 }

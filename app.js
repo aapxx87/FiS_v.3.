@@ -28,23 +28,31 @@ $(document).ready(function() {
 
   $(".input_s").on("keypress", function(event) {
 
+
+
+
+
     var $new_comment;
 
     if (event.keyCode === 13) {
 
       if ($(".input_s").val() !== "") {
 
+
         comment_text = $(".input_s").val();
 
         var $new_comment = findFarm(comment_text);
 
-        $(".output_area").append($new_comment);
+
+        $(".output_area p").remove();
+
+        $(".output_area").append("<p>" + $new_comment + "</p>");
 
         $(".output_area").fadeIn();
 
         $(".input_s").val("");
 
-          $(".output_area").fadeOut(6000);
+        $(".output_area").fadeOut(6000);
 
 
       }

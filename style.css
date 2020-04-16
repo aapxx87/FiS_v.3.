@@ -118,8 +118,8 @@ body {
 
 .output_area {
   display: none;
-  width: 170px;
-  height: 30px;
+  width: 185px;
+  height: 40px;
   position: fixed;
   bottom: 80px;
   left: 30%;

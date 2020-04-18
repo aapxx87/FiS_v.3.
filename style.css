@@ -12,7 +12,8 @@ body {
   display: inline-flex;
   background: #694F63;
   padding: 20px;
-  padding-bottom: 40px;
+  padding-top: 20px;
+  padding-bottom: 30px;
   width: 100%;
   height: 60px;
   display: block;
@@ -28,12 +29,20 @@ body {
 
 .content_div {
   background: #EAD9D1;
-  padding: 20px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
   width: 100%;
   display: none;
-  border: 1px solid #C4C4BC;
-  color: #2A2B27;
+  /* border: 1px solid #C4C4BC; */
+  color: white;
   font-family: 'Roboto', sans-serif;
+}
+
+
+.txt {
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 .main-title {
@@ -64,48 +73,74 @@ body {
   background: #674D5E;
 }
 
+#picframe1 {
+  background-color: #674D5E;
+}
+
+
 #clickMe2 {
   background: #808487;
 }
 
-#picframe1 {
-  background-color: ;
+#picframe2 {
+  background-color: #808487;
 }
 
 #clickMe3 {
   background: #94AEA3;
 }
 
-#clickMe3 {
-  background: #94AEA3;
+#picframe3 {
+  background-color: #94AEA3;
 }
 
 #clickMe4 {
   background: #C0A193;
 }
 
+#picframe4 {
+  background-color: #C0A193;
+}
+
 #clickMe5 {
   background: #858585;
+}
+
+#picframe5 {
+  background-color: #858585;
 }
 
 #clickMe6 {
   background: #D8BD5C;
 }
 
+#picframe6 {
+  background-color: #D8BD5C;
+}
+
 #clickMe7 {
   background: #C9684C;
+}
+
+#picframe7 {
+  background-color: #C9684C;
 }
 
 #clickMe8 {
   background: #815277;
 }
 
+#picframe8 {
+  background-color: #815277;
+}
+
+
 .input_s {
   width: 170px;
   height: 30px;
   position: fixed;
-  left: 30%;
   bottom: 30px;
+  left: 125px;
   background: #434852;
   opacity: 0.5;
   border: 1px solid #434852;

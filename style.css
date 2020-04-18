@@ -13,7 +13,6 @@ body {
 
 .section_gap {
   display: flex;
-  background: #281C28;
   width: 100%;
   height: 35px;
   box-shadow: 0 0 7px rgba(0, 0, 0, 0.5);
@@ -26,7 +25,15 @@ body {
   font-size: 15px;
   margin-left: 20px;
   margin-top: 8px;
-  font-weight: 800;
+  font-weight: bold;
+}
+
+#farm {
+  background-color: #BF8554;
+}
+
+#item {
+  background-color: #674D5E;
 }
 
 /* секция разделителя (конец) */

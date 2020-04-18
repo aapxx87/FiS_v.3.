@@ -63,7 +63,7 @@ body {
   background: #EAD9D1;
   padding-left: 20px;
   padding-right: 20px;
-  padding-bottom: 10px;
+  padding-bottom: 20px;
   width: 100%;
   display: none;
   color: white;
@@ -109,6 +109,7 @@ body {
 
 #clickMe1 {
   background: #674D5E;
+  box-shadow: none;
 }
 
 #picframe1 {
@@ -176,6 +177,7 @@ body {
 
 #clickMe9 {
   background: #BF8554;
+  box-shadow: none;
 }
 
 #picframe9 {

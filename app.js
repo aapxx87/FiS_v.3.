@@ -28,10 +28,6 @@ $(document).ready(function() {
 
   $(".input_s").on("keypress", function(event) {
 
-
-
-
-
     var $new_comment;
 
     if (event.keyCode === 13) {
@@ -94,6 +90,18 @@ $(document).ready(function() {
 
   $("#clickMe8").click(function() {
     $("#picframe8").slideToggle();
+  });
+
+  $("#clickMe9").click(function() {
+    $("#picframe9").slideToggle();
+  });
+
+  $("#clickMe10").click(function() {
+    $("#picframe10").slideToggle();
+  });
+
+  $("#clickMe11").click(function() {
+    $("#picframe11").slideToggle();
   });
 
 

@@ -8,6 +8,28 @@ body {
   padding: 0;
 }
 
+
+/* секция разделителя (начало) */
+
+.section_gap {
+  display: flex;
+  background: #301631;
+  width: 100%;
+  height: 50px;
+  box-shadow: 0 0 7px rgba(0, 0, 0, 0.5);
+}
+
+.section_title {
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/* секция разделителя (конец) */
+
+
 .clickMe_div {
   display: inline-flex;
   background: #694F63;
@@ -17,7 +39,7 @@ body {
   width: 100%;
   height: 60px;
   display: block;
-  box-shadow: 0 0 9px rgba(0,0,0,0.5);
+  box-shadow: 0 0 7px rgba(0, 0, 0, 0.5);
 }
 
 .clickMe_div_left {
@@ -39,7 +61,6 @@ body {
   color: white;
   font-family: 'Roboto', sans-serif;
 }
-
 
 .txt {
   margin-top: 0px;
@@ -70,6 +91,11 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
+
+
+
+/* Стили контейнеров вещей */
+
 #clickMe1 {
   background: #674D5E;
 }
@@ -77,7 +103,6 @@ body {
 #picframe1 {
   background-color: #674D5E;
 }
-
 
 #clickMe2 {
   background: #808487;
@@ -136,6 +161,36 @@ body {
 }
 
 
+/* Стили контейнеров лекарств */
+
+#clickMe9 {
+  background: #BF8554;
+}
+
+#picframe9 {
+  background-color: #BF8554;
+}
+
+#clickMe10 {
+  background: #C87878;
+}
+
+#picframe10 {
+  background-color: #C87878;
+}
+
+#clickMe11 {
+  background: #9C929C;
+}
+
+#picframe11 {
+  background-color: #9C929C;
+}
+
+
+
+/* Стили инпута поиска и оутпут результата поиска */
+
 .input_s {
   width: 170px;
   height: 30px;
@@ -150,7 +205,6 @@ body {
   font-size: 16px;
   outline: none;
 }
-
 
 .output_area {
   display: none;
@@ -171,6 +225,6 @@ body {
 
 .output_area p {
   margin-top: 5px;
-margin-left: 10px;
-color: white;
+  margin-left: 10px;
+  color: white;
 }

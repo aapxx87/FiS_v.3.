@@ -63,18 +63,20 @@ body {
   background: #EAD9D1;
   padding-left: 20px;
   padding-right: 20px;
-  padding-bottom: 20px;
+  padding-bottom: 10px;
   width: 100%;
   display: none;
-  /* border: 1px solid #C4C4BC; */
   color: white;
   font-family: 'Roboto', sans-serif;
 }
 
-.txt {
-  margin-top: 0px;
-  margin-bottom: 0px;
+
+#desk_text {
+  margin-top: 0;
+  margin-right: 80px;
+  line-height: 1.4;
 }
+
 
 .main-title {
   font-family: 'Roboto', sans-serif;

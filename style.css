@@ -209,7 +209,7 @@ body {
   height: 30px;
   position: fixed;
   bottom: 30px;
-  left: 125px;
+  left: 120px;
   background: #434852;
   opacity: 0.5;
   border: 1px solid #434852;
@@ -232,8 +232,8 @@ body {
 }
 
 .img_s {
-  width: 20px;
-  margin-top: 4px;
+  width: 22px;
+  margin-top: 3px;
   margin-left: 5px;
 }
 

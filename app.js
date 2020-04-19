@@ -26,6 +26,37 @@ $(document).ready(function() {
 
 
 
+  const bigBukwa = (str) => {
+
+    if (str[0] === str[0].toUpperCase()) {
+
+      return str;
+    }
+
+    if (str[0] !== str[0].toUpperCase()) {
+
+      const newString = str[0];
+      const newString2 = str[0].toUpperCase();
+      const body = str.slice(1);
+      const newString3 = newString2 + body;
+      return newString3;
+
+    }
+
+  };
+
+
+
+
+  const ubrProb = (str) => {
+
+    const preobrText = str.trim();
+    return preobrText;
+
+  };
+
+
+
   $(".input_s").on("keypress", function(event) {
 
     var $new_comment;
@@ -37,7 +68,7 @@ $(document).ready(function() {
 
         comment_text = $(".input_s").val();
 
-        var $new_comment = findFarm(comment_text);
+        var $new_comment = findFarm(bigBukwa(ubrProb(comment_text)));
 
 
         $(".output_area p").remove();

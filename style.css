@@ -209,7 +209,7 @@ body {
   height: 30px;
   position: fixed;
   bottom: 30px;
-  left: 120px;
+  left: calc(50% - 85px);
   background: #434852;
   opacity: 0.5;
   border: 1px solid #434852;
@@ -219,15 +219,13 @@ body {
   outline: none;
 }
 
-.search_ico {
+/* .search_ico {
   width: 32px;
   height: 32px;
   position: fixed;
   bottom: 30px;
   left: 265px;
-  /* background: #434852; */
   opacity: 0.9;
-  /* border: 1px solid #434852; */
   border-radius: 28px;
 }
 
@@ -236,7 +234,7 @@ body {
   margin-top: 1px;
   margin-left: 7px;
   margin-bottom: 2px;
-}
+} */
 
 .output_area {
   display: none;
@@ -260,3 +258,8 @@ body {
   margin-left: 10px;
   color: white;
 }
+
+
+
+
+/* git commit -a -m'style' */

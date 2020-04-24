@@ -142,6 +142,30 @@ $(document).ready(function() {
     $content3.html(item.kor3.sort().join('<br/>'));
     $("#picframe11").append($content3);
 
+    var $content4 = $("<p>");
+    $content4.html(item.ant1.sort().join('<br/>'));
+    $("#picframe1").append($content4);
+
+    var $content5 = $("<p>");
+    $content5.html(item.ant2.sort().join('<br/>'));
+    $("#picframe2").append($content5);
+
+    var $content6 = $("<p>");
+    $content6.html(item.ant3.sort().join('<br/>'));
+    $("#picframe3").append($content6);
+
+    var $content7 = $("<p>");
+    $content7.html(item.ant4.sort().join('<br/>'));
+    $("#picframe4").append($content7);
+
+    var $content8 = $("<p>");
+    $content8.html(item.ant5.sort().join('<br/>'));
+    $("#picframe5").append($content8);
+
+    var $content9 = $("<p>");
+    $content9.html(item.ant6.sort().join('<br/>'));
+    $("#picframe6").append($content9);
+
 
   });
 

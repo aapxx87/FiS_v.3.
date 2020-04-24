@@ -14,26 +14,26 @@ body {
 .section_gap {
   display: flex;
   width: 100%;
-  height: 35px;
+  height: 50px;
   box-shadow: 0 0 7px rgba(0, 0, 0, 0.5);
   opacity: 0,5;
 }
 
 .section_title {
-  color: #E4D3CB;
+  color: #808589;
   font-family: 'Roboto', sans-serif;
-  font-size: 15px;
+  font-size: 19px;
   margin-left: 20px;
-  margin-top: 8px;
-  font-weight: bold;
+  margin-right: 100px;
+  margin-top: 12px;
 }
 
 #farm {
-  background-color: #BF8554;
+  background-color: #EFEFEF;
 }
 
 #item {
-  background-color: #674D5E;
+  background-color: #EFEFEF;
 }
 
 /* секция заголовка блока (конец) */

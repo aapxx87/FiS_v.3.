@@ -105,10 +105,11 @@ body {
 }
 
 
-#desk_text {
+.content_div p {
   margin-top: 0;
   margin-right: 80px;
   line-height: 1.4;
+  font-family: 'Roboto', sans-serif;
 }
 
 /* часть с содержимым (конец) */

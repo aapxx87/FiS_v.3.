@@ -131,10 +131,16 @@ $(document).ready(function() {
 
 
     var $content = $("<p>");
-
-    $content.html(item.kor1.join('<br/>'));
-
+    $content.html(item.kor1.sort().join('<br/>'));
     $("#picframe9").append($content);
+
+    var $content2 = $("<p>");
+    $content2.html(item.kor2.sort().join('<br/>'));
+    $("#picframe10").append($content2);
+
+    var $content3 = $("<p>");
+    $content3.html(item.kor3.sort().join('<br/>'));
+    $("#picframe11").append($content3);
 
 
   });
@@ -143,7 +149,7 @@ $(document).ready(function() {
 
 
 
-
+// Функционал раскрытия контейнеров (аккардион)
 
 
   $("#clickMe1").click(function() {

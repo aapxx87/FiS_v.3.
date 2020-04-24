@@ -94,32 +94,52 @@ $(document).ready(function() {
 
 
 
-  $(".img_s").on("click", function(event) {
+  // $(".img_s").on("click", function(event) {
+  //
+  //   var $new_comment;
+  //
+  //   if ($(".input_s").val() !== "") {
+  //
+  //
+  //     comment_text = $(".input_s").val();
+  //
+  //     var $new_comment = findFarm(bigBukwa(ubrProb(comment_text)));
+  //
+  //
+  //     $(".output_area p").remove();
+  //
+  //     $(".output_area").append("<p>" + $new_comment + "</p>");
+  //
+  //     $(".output_area").fadeIn();
+  //
+  //     $(".input_s").val("");
+  //
+  //     $(".output_area").hide(4000);
+  //
+  //
+  //   }
+  //
+  // });
 
-    var $new_comment;
-
-    if ($(".input_s").val() !== "") {
 
 
-      comment_text = $(".input_s").val();
-
-      var $new_comment = findFarm(bigBukwa(ubrProb(comment_text)));
 
 
-      $(".output_area p").remove();
-
-      $(".output_area").append("<p>" + $new_comment + "</p>");
-
-      $(".output_area").fadeIn();
-
-      $(".input_s").val("");
-
-      $(".output_area").hide(4000);
 
 
-    }
+  $.getJSON("data.json", function(item) {
+
+
+    var $content = $("<p>");
+
+    $content.html(item.kor1.join('<br/>'));
+
+    $("#picframe9").append($content);
+
 
   });
+
+
 
 
 

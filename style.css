@@ -9,7 +9,7 @@ body {
 }
 
 
-/* секция разделителя (начало) */
+/* секция заголовка блока (начало) */
 
 .section_gap {
   display: flex;
@@ -36,8 +36,11 @@ body {
   background-color: #674D5E;
 }
 
-/* секция разделителя (конец) */
+/* секция заголовка блока (конец) */
 
+
+
+/* кликабельная часть карточки (начало) */
 
 .clickMe_div {
   display: inline-flex;
@@ -58,25 +61,6 @@ body {
 .clickMe_div_right {
   float: right;
 }
-
-.content_div {
-  background: #EAD9D1;
-  padding-left: 20px;
-  padding-right: 20px;
-  padding-bottom: 20px;
-  width: 100%;
-  display: none;
-  color: white;
-  font-family: 'Roboto', sans-serif;
-}
-
-
-#desk_text {
-  margin-top: 0;
-  margin-right: 80px;
-  line-height: 1.4;
-}
-
 
 .main-title {
   font-family: 'Roboto', sans-serif;
@@ -101,6 +85,33 @@ body {
   margin-right: 50px;
   font-family: 'Roboto', sans-serif;
 }
+
+/* кликабельная часть карточки (конец) */
+
+
+
+
+/* часть с содержимым (начало) */
+
+.content_div {
+  background: #EAD9D1;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  width: 100%;
+  display: none;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+}
+
+
+#desk_text {
+  margin-top: 0;
+  margin-right: 80px;
+  line-height: 1.4;
+}
+
+/* часть с содержимым (конец) */
 
 
 
@@ -258,8 +269,3 @@ body {
   margin-left: 10px;
   color: white;
 }
-
-
-
-
-/* git commit -a -m'style' */

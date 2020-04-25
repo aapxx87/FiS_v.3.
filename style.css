@@ -187,36 +187,36 @@ body {
 /* Стили контейнеров лекарств */
 
 #clickMe9 {
-  background: #36223B;
+  background: #482A42;
   box-shadow: none;
 }
 
 #picframe9 {
-  background-color: #36223B;
-}
-
-#clickMe10 {
-  background: #482A42;
-}
-
-#picframe10 {
   background-color: #482A42;
 }
 
-#clickMe11 {
+#clickMe10 {
   background: #6B3F50;
 }
 
-#picframe11 {
+#picframe10 {
   background-color: #6B3F50;
 }
 
-#clickMe12 {
+#clickMe11 {
   background: #835057;
 }
 
-#picframe12 {
+#picframe11 {
   background-color: #835057;
+}
+
+#clickMe12 {
+  background: #90635E;
+}
+
+#picframe12 {
+  background-color: #90635E;
 }
 
 

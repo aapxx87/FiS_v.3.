@@ -192,6 +192,10 @@ $(document).ready(function() {
     $("#picframe4").slideToggle();
   });
 
+  $("#clickMe4-1").click(function() {
+    $("#picframe4-1").slideToggle();
+  });
+
   $("#clickMe5").click(function() {
     $("#picframe5").slideToggle();
   });

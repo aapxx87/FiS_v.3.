@@ -8,9 +8,7 @@ body {
   padding: 0;
 }
 
-
-/* секция заголовка блока (начало) */
-
+/* разделитель (начало) */
 .section_gap {
   display: flex;
   width: 100%;
@@ -35,12 +33,8 @@ body {
   background-color: #263238;
 }
 
-/* секция заголовка блока (конец) */
-
-
-
+/* разделитель (конец) */
 /* кликабельная часть карточки (начало) */
-
 .clickMe_div {
   display: inline-flex;
   background: #694F63;
@@ -86,12 +80,7 @@ body {
 }
 
 /* кликабельная часть карточки (конец) */
-
-
-
-
 /* часть с содержимым (начало) */
-
 .content_div {
   background: #EAD9D1;
   padding-left: 20px;
@@ -103,7 +92,6 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
-
 .content_div p {
   margin-top: 0;
   margin-right: 80px;
@@ -114,10 +102,7 @@ body {
 /* часть с содержимым (конец) */
 
 
-
-
 /* Стили контейнеров вещей */
-
 #clickMe1 {
   background: #37474F;
   box-shadow: none;
@@ -183,9 +168,7 @@ body {
   background-color: #607D8B;
 }
 
-
 /* Стили контейнеров лекарств */
-
 #clickMe9 {
   background: #482A42;
   box-shadow: none;
@@ -219,10 +202,7 @@ body {
   background-color: #90635E;
 }
 
-
-
 /* Стили инпута поиска и оутпут результата поиска */
-
 .input_s {
   width: 170px;
   height: 30px;
@@ -254,7 +234,6 @@ body {
   margin-left: 7px;
   margin-bottom: 2px;
 } */
-
 .output_area {
   display: none;
   width: 185px;

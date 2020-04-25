@@ -14,13 +14,12 @@ body {
 .section_gap {
   display: flex;
   width: 100%;
-  height: 50px;
+  height: 70px;
   box-shadow: 0 0 7px rgba(0, 0, 0, 0.5);
-  opacity: 0,5;
 }
 
 .section_title {
-  color: #808589;
+  color: white;
   font-family: 'Roboto', sans-serif;
   font-size: 19px;
   margin-left: 20px;
@@ -28,12 +27,12 @@ body {
   margin-top: 12px;
 }
 
-#farm {
-  background-color: #EFEFEF;
+#farm_gap {
+  background-color: #301D30;
 }
 
-#item {
-  background-color: #EFEFEF;
+#item_gap {
+  background-color: #263238;
 }
 
 /* секция заголовка блока (конец) */
@@ -120,96 +119,104 @@ body {
 /* Стили контейнеров вещей */
 
 #clickMe1 {
-  background: #674D5E;
+  background: #37474F;
   box-shadow: none;
 }
 
 #picframe1 {
-  background-color: #674D5E;
+  background-color: #37474F;
 }
 
 #clickMe2 {
-  background: #808487;
+  background: #455A64;
 }
 
 #picframe2 {
-  background-color: #808487;
+  background-color: #455A64;
 }
 
 #clickMe3 {
-  background: #94AEA3;
+  background: #546E7A;
 }
 
 #picframe3 {
-  background-color: #94AEA3;
+  background-color: #546E7A;
 }
 
 #clickMe4 {
-  background: #C0A193;
+  background: #607D8B;
 }
 
 #picframe4 {
-  background-color: #C0A193;
+  background-color: #607D8B;
 }
 
 #clickMe5 {
-  background: #858585;
+  background: #78909C;
 }
 
 #picframe5 {
-  background-color: #858585;
+  background-color: #78909C;
 }
 
 #clickMe6 {
-  background: #D8BD5C;
+  background: #90A4AE;
 }
 
 #picframe6 {
-  background-color: #D8BD5C;
+  background-color: #90A4AE;
 }
 
 #clickMe7 {
-  background: #C9684C;
+  background: #9E9E9E;
 }
 
 #picframe7 {
-  background-color: #C9684C;
+  background-color: #9E9E9E;
 }
 
 #clickMe8 {
-  background: #815277;
+  background: #BDBDBD;
 }
 
 #picframe8 {
-  background-color: #815277;
+  background-color: #BDBDBD;
 }
 
 
 /* Стили контейнеров лекарств */
 
 #clickMe9 {
-  background: #BF8554;
+  background: #36223B;
   box-shadow: none;
 }
 
 #picframe9 {
-  background-color: #BF8554;
+  background-color: #36223B;
 }
 
 #clickMe10 {
-  background: #C87878;
+  background: #482A42;
 }
 
 #picframe10 {
-  background-color: #C87878;
+  background-color: #482A42;
 }
 
 #clickMe11 {
-  background: #9C929C;
+  background: #6B3F50;
 }
 
 #picframe11 {
-  background-color: #9C929C;
+  background-color: #6B3F50;
+}
+
+#clickMe12 {
+  background: #835057;
+}
+
+#picframe12 {
+  background-color: #835057;
 }
 
 

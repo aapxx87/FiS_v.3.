@@ -220,5 +220,9 @@ $(document).ready(function() {
     $("#picframe11").slideToggle();
   });
 
+  $("#clickMe12").click(function() {
+    $("#picframe12").slideToggle();
+  });
+
 
 });

@@ -152,7 +152,7 @@ $(document).ready(function() {
 
     var $content2_1 = $("<p>");
     $content2_1.html(item.ant2_1_doc.sort().join('<br/>'));
-    $("#ul_dlt").append($content2_1);
+    $("#picframe2_1").append($content2_1);
 
     var $content6 = $("<p>");
     $content6.html(item.ant3_farm.sort().join('<br/>'));
@@ -164,11 +164,11 @@ $(document).ready(function() {
 
     var $content4_1 = $("<li>");
     $content4_1.html(item.ant4_1_hos.sort().join('<li>'));
-    $("#ul_kor_hos").append($content4_1);
+    $("#picframe4_1").append($content4_1);
 
     var $content4_2 = $("<li>");
     $content4_2.html(item.ant4_2_hos.sort().join('<li>'));
-    $("#ul_meloch").append($content4_2);
+    $("#picframe4_2").append($content4_2);
 
     var $content8 = $("<p>");
     $content8.html(item.ant5_flowers.sort().join('<br/>'));
@@ -188,11 +188,11 @@ $(document).ready(function() {
 
     var $content11_1 = $("<p>");
     $content11_1.html(item.ant8_1_child.sort().join('<br/>'));
-    $("#ul_box_det").append($content11_1);
+    $("#picframe8_1").append($content11_1);
 
     var $content11_2 = $("<p>");
     $content11_2.html(item.ant8_2_child.sort().join('<br/>'));
-    $("#ul_book_det").append($content11_2);
+    $("#picframe8_2").append($content11_2);
 
 
   });
@@ -212,6 +212,12 @@ $(document).ready(function() {
     $("#picframe2").slideToggle();
   });
 
+
+  $("#clickMe2_1").click(function() {
+    $("#picframe2_1").slideToggle();
+  });
+
+
   $("#clickMe3").click(function() {
     $("#picframe3").slideToggle();
   });
@@ -220,8 +226,12 @@ $(document).ready(function() {
     $("#picframe4").slideToggle();
   });
 
-  $("#clickMe4-1").click(function() {
-    $("#picframe4-1").slideToggle();
+  $("#clickMe4_1").click(function() {
+    $("#picframe4_1").slideToggle();
+  });
+
+  $("#clickMe4_2").click(function() {
+    $("#picframe4_2").slideToggle();
   });
 
   $("#clickMe5").click(function() {
@@ -240,6 +250,14 @@ $(document).ready(function() {
     $("#picframe8").slideToggle();
   });
 
+  $("#clickMe8_1").click(function() {
+    $("#picframe8_1").slideToggle();
+  });
+
+  $("#clickMe8_2").click(function() {
+    $("#picframe8_2").slideToggle();
+  });
+
   $("#clickMe9").click(function() {
     $("#picframe9").slideToggle();
   });
@@ -255,8 +273,6 @@ $(document).ready(function() {
   $("#clickMe12").click(function() {
     $("#picframe12").slideToggle();
   });
-
-
 
 
 

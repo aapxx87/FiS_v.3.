@@ -203,12 +203,7 @@ body {
 
 /* стили вложенных списков в карточки */
 
-
-summary::-webkit-details-marker {
-  display: none
-}
-
-.summary_list {
+.summary_list_click {
   outline: none;
   font-family: 'Roboto', sans-serif;
   font-size: 17px;
@@ -217,7 +212,7 @@ summary::-webkit-details-marker {
   color: #E4D3CB;
 }
 
-.ul_summary_list {
+.summary_list_content {
   font-size: 16px;
   line-height: 1.4;
   list-style: none;
@@ -226,8 +221,8 @@ summary::-webkit-details-marker {
   margin-bottom: 15px;
   padding-left: 19px;
   color: #E4D3CB;
+  display: none;
 }
-
 
 
 /* Стили инпута поиска и оутпут результата поиска */
@@ -283,4 +278,9 @@ summary::-webkit-details-marker {
   margin-top: 5px;
   margin-left: 10px;
   color: white;
+}
+
+
+#la-la {
+  display: none;
 }

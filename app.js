@@ -146,9 +146,21 @@ $(document).ready(function() {
     $content4.html(item.ant1.sort().join('<br/>'));
     $("#picframe1").append($content4);
 
+    var $content4_1 = $("<li>");
+    $content4_1.html(item.ant4_1.sort().join('<li>'));
+    $("#ul_kor_hos").append($content4_1);
+
+    var $content4_2 = $("<li>");
+    $content4_2.html(item.ant4_2.sort().join('<li>'));
+    $("#ul_meloch").append($content4_2);
+
     var $content5 = $("<p>");
     $content5.html(item.ant2.sort().join('<br/>'));
     $("#picframe2").append($content5);
+
+    var $content2_1 = $("<p>");
+    $content2_1.html(item.ant2_1.sort().join('<br/>'));
+    $("#ul_dlt").append($content2_1);
 
     var $content6 = $("<p>");
     $content6.html(item.ant3.sort().join('<br/>'));

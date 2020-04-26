@@ -223,8 +223,9 @@ summary::-webkit-details-marker {
   list-style: none;
   font-family: 'Roboto', sans-serif;
   margin-top: 11px;
-  margin-bottom: 11px;
+  margin-bottom: 15px;
   padding-left: 19px;
+  color: #E4D3CB;
 }
 
 

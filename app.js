@@ -143,40 +143,56 @@ $(document).ready(function() {
     $("#picframe11").append($content3);
 
     var $content4 = $("<p>");
-    $content4.html(item.ant1.sort().join('<br/>'));
+    $content4.html(item.ant1_razn.sort().join('<br/>'));
     $("#picframe1").append($content4);
 
-    var $content4_1 = $("<li>");
-    $content4_1.html(item.ant4_1.sort().join('<li>'));
-    $("#ul_kor_hos").append($content4_1);
-
-    var $content4_2 = $("<li>");
-    $content4_2.html(item.ant4_2.sort().join('<li>'));
-    $("#ul_meloch").append($content4_2);
-
     var $content5 = $("<p>");
-    $content5.html(item.ant2.sort().join('<br/>'));
+    $content5.html(item.ant2_doc.sort().join('<br/>'));
     $("#picframe2").append($content5);
 
     var $content2_1 = $("<p>");
-    $content2_1.html(item.ant2_1.sort().join('<br/>'));
+    $content2_1.html(item.ant2_1_doc.sort().join('<br/>'));
     $("#ul_dlt").append($content2_1);
 
     var $content6 = $("<p>");
-    $content6.html(item.ant3.sort().join('<br/>'));
+    $content6.html(item.ant3_farm.sort().join('<br/>'));
     $("#picframe3").append($content6);
 
     var $content7 = $("<p>");
-    $content7.html(item.ant4.sort().join('<br/>'));
+    $content7.html(item.ant4_hos.sort().join('<br/>'));
     $("#picframe4").append($content7);
 
+    var $content4_1 = $("<li>");
+    $content4_1.html(item.ant4_1_hos.sort().join('<li>'));
+    $("#ul_kor_hos").append($content4_1);
+
+    var $content4_2 = $("<li>");
+    $content4_2.html(item.ant4_2_hos.sort().join('<li>'));
+    $("#ul_meloch").append($content4_2);
+
     var $content8 = $("<p>");
-    $content8.html(item.ant5.sort().join('<br/>'));
+    $content8.html(item.ant5_flowers.sort().join('<br/>'));
     $("#picframe5").append($content8);
 
     var $content9 = $("<p>");
-    $content9.html(item.ant6.sort().join('<br/>'));
+    $content9.html(item.ant6_new_year.sort().join('<br/>'));
     $("#picframe6").append($content9);
+
+    var $content10 = $("<p>");
+    $content10.html(item.ant7_kitchen.sort().join('<br/>'));
+    $("#picframe7").append($content10);
+
+    var $content11 = $("<p>");
+    $content11.html(item.ant8_child.sort().join('<br/>'));
+    $("#picframe8").append($content11);
+
+    var $content11_1 = $("<p>");
+    $content11_1.html(item.ant8_1_child.sort().join('<br/>'));
+    $("#ul_box_det").append($content11_1);
+
+    var $content11_2 = $("<p>");
+    $content11_2.html(item.ant8_2_child.sort().join('<br/>'));
+    $("#ul_book_det").append($content11_2);
 
 
   });
@@ -239,6 +255,11 @@ $(document).ready(function() {
   $("#clickMe12").click(function() {
     $("#picframe12").slideToggle();
   });
+
+
+
+
+
 
 
 });

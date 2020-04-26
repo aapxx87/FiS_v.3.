@@ -142,6 +142,10 @@ $(document).ready(function() {
     $content3.html(item.kor3.sort().join('<br/>'));
     $("#picframe11").append($content3);
 
+    var $content12 = $("<p>");
+    $content12.html(item.kor4.sort().join('<br/>'));
+    $("#picframe12").append($content12);
+
     var $content4 = $("<p>");
     $content4.html(item.ant1_razn.sort().join('<br/>'));
     $("#picframe1").append($content4);

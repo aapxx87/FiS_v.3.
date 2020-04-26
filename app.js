@@ -150,8 +150,8 @@ $(document).ready(function() {
     $content5.html(item.ant2_doc.sort().join('<br/>'));
     $("#picframe2").append($content5);
 
-    var $content2_1 = $("<p>");
-    $content2_1.html(item.ant2_1_doc.sort().join('<br/>'));
+    var $content2_1 = $("<li>");
+    $content2_1.html(item.ant2_1_doc.sort().join('<li>'));
     $("#picframe2_1").append($content2_1);
 
     var $content6 = $("<p>");
@@ -186,12 +186,12 @@ $(document).ready(function() {
     $content11.html(item.ant8_child.sort().join('<br/>'));
     $("#picframe8").append($content11);
 
-    var $content11_1 = $("<p>");
-    $content11_1.html(item.ant8_1_child.sort().join('<br/>'));
+    var $content11_1 = $("<li>");
+    $content11_1.html(item.ant8_1_child.sort().join('<li>'));
     $("#picframe8_1").append($content11_1);
 
-    var $content11_2 = $("<p>");
-    $content11_2.html(item.ant8_2_child.sort().join('<br/>'));
+    var $content11_2 = $("<li>");
+    $content11_2.html(item.ant8_2_child.sort().join('<li>'));
     $("#picframe8_2").append($content11_2);
 
 

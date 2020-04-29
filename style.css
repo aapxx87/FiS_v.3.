@@ -202,7 +202,6 @@ body {
 }
 
 /* стили вложенных списков в карточки */
-
 .summary_list_click {
   outline: none;
   font-family: 'Roboto', sans-serif;
@@ -223,7 +222,6 @@ body {
   color: #E4D3CB;
   display: none;
 }
-
 
 /* Стили инпута поиска и оутпут результата поиска */
 .input_s {
@@ -280,7 +278,13 @@ body {
   color: white;
 }
 
-
-#la-la {
+.neumorphic {
+  box-shadow: inset 3px 3px 5px 0 rgba(0, 0, 0, 0.2),
+    inset -3px -3px 5px 0 rgba(255, 255, 255, 0.5);
+  font-size: 15px;
+  width: 70%;
+  border-radius: 17px;
+  overflow: hidden;
+  padding: 1.3rem;
   display: none;
 }
